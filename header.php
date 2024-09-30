@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
+
 <head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit officiis possimus ex sequi quo facere perspiciatis rem ratione, in quod illum ab numquam! Aliquam in, non debitis quis aspernatur voluptatum.</p>
-    <div id="page" class="site">
-        <header>
 
-            <section class="top-bar">
+<body <?php body_class(); ?>
+
+    <div id="page" class="site">
+    <header>
+
+        <section class="top-bar">
+
+            <div class="container">
                 <div class="logo">
                     Logo
                 </div>
                 <div class="searchbox">
                     Search
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="menu-area">
+        <section class="menu-area">
+            <div class="container">
                 <nav class="main-menu">
-                    Menu
-                </nav>
-            </section>
+                    
+                    <!-- Burger Button -->
+                    <button class="check-button">
+                        <div class="menu-icon">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </button>
 
-        </header>
+                    <!-- Nav menu (the name is from functions.php and depth is a menu's level, ex) menu->sub->sub ) -->
+                    <?php wp_nav_menu(array('theme_location' => 'wp_devs_main_menu', 'depth => 2')); ?>
+                </nav>
+            </div>
+
+        </section>
+
+    </header>
