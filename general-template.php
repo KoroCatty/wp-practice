@@ -5,6 +5,10 @@
 <!-- General Template の項目がページのところに出現するようになり、このファイル構成を共有できるようになる -->
 
 <?php get_header(); ?>
+
+<!-- Header Customization -->
+<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+
 <div id="content" class="site-content">
     <div id="primary" class="content-area">
 

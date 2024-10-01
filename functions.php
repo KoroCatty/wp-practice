@@ -14,12 +14,35 @@ add_action('wp_enqueue_scripts', 'wpdevs_load_scripts');
 // =================================================================
 // Menus
 // =================================================================
-register_nav_menus(
-    array(
-        'wp_devs_main_menu' => "Main Menu Kazu",
-        'wp_devs_footer_menu' => "Footer Menu Kazu",
-    )
-);
+function wpdevs_config()
+{
+// Menus
+    register_nav_menus(
+        array(
+            'wp_devs_main_menu' => "Main Menu Kazu",
+            'wp_devs_footer_menu' => "Footer Menu Kazu",
+        )
+    );
+
+    // Header customizer
+    $args = array(
+        'height' => 225,
+        'width' => 1920,
+        'flex-height' => true,
+        'flex-width' => true,
+        'header-text' => array('site-title', 'site-description'),
+    );
+    add_theme_support( 'custom-header', $args );
+    add_theme_support( 'post-thumbnails' );
+}
+add_action( 'after_setup_theme', 'wpdevs_config', 0 ); // 0 is the priority(This is the fastest)
+
+
+
+
+
+
+
 
 
 
