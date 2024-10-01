@@ -4,8 +4,15 @@
 
         <main id="main" class="site-main">
 
-        <h1>Blog Page</h1>
- 
+            <section class="hero">
+                Hero
+            </section>
+
+            <section class="services">
+                Services
+            </section>
+
+            <section class="home-blog">
                 <div class="container">
                     <div class="blog-items">
                         <?php
@@ -31,6 +38,7 @@
                     </div>
                 </div>
 
+            </section>
 
         </main>
     </div>
