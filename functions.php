@@ -7,7 +7,6 @@ function wpdevs_load_scripts()
     wp_enqueue_style('wpdevs-style', get_stylesheet_uri(), array(), filemtime(get_template_directory() . '/style.css'), 'all');
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap', array(), null);
     wp_enqueue_script('dropdown', get_template_directory_uri() . '/js/dropdown.js', array(), '1.0', true); // by true, it will be loaded in the footer
-
 }
 add_action('wp_enqueue_scripts', 'wpdevs_load_scripts');
 
@@ -33,7 +32,13 @@ function wpdevs_config()
         'header-text' => array('site-title', 'site-description'),
     );
     add_theme_support( 'custom-header', $args );
-    add_theme_support( 'post-thumbnails' );
+    add_theme_support( 'post-thumbnails' );// featured image
+    add_theme_support( 'custom-logo', array( // Logo
+        'width'       => 200,
+        'height'      => 110,
+        'flex-width'  => true, // if true, the width of the logo will be flexible
+        'flex-height' => true, 
+    ) );
 }
 add_action( 'after_setup_theme', 'wpdevs_config', 0 ); // 0 is the priority(This is the fastest)
 

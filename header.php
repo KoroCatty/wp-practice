@@ -17,7 +17,16 @@
 
             <div class="container">
                 <div class="logo">
-                    Logo
+                    <?php
+                    if (has_custom_logo()) {
+                        the_custom_logo();
+                    } else {
+                    ?>
+                        <a href="<?php echo home_url(); ?>">
+                            <h1><?php bloginfo('name'); ?></h1>
+                        <?php
+                    }
+                        ?>
                 </div>
                 <div class="searchbox">
                     Search
@@ -28,7 +37,7 @@
         <section class="menu-area">
             <div class="container">
                 <nav class="main-menu">
-                    
+
                     <!-- Burger Button -->
                     <button class="check-button">
                         <div class="menu-icon">
@@ -46,3 +55,4 @@
         </section>
 
     </header>
+    </div>
