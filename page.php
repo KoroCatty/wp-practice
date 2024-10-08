@@ -17,10 +17,16 @@
                             </header>
                             <?php the_content(); ?>
                         </article>
+                        <!-- コメント (コメントがあれば表示するコード )-->
                     <?php
+                        if (comments_open() || get_comments_number()) {
+                            comments_template();
+                        }
                     endwhile;
                     ?>
                 </div>
+                <!-- sidebar page -->
+                <?php get_sidebar('page'); ?>
             </div>
         </main>
     </div>
