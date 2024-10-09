@@ -6,9 +6,10 @@
                 <nav class="footer-menu">
                     <?php wp_nav_menu( array( 'theme_location' => 'wp_devs_footer_menu' , 'depth' => 1 )); ?>
                 </nav>
+                <?php get_search_form(); ?>
             </div>
+            <?php wp_footer(); ?>
         </footer>
     </div>
-    <?php wp_footer(); ?>
 </body>
 </html>
