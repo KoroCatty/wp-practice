@@ -10,18 +10,11 @@
                 <div class="page-item">
                     <?php
                     while (have_posts()) : the_post();
-                    ?>
-                        <article>
-                            <header>
-                                <h1><?php the_title(); ?></h1>
-                            </header>
-                            <?php the_content(); ?>
+                    
+                    // 固定ページの中身
+                    get_template_part('parts/content', 'page');
 
-                            <!-- Page Break のページネーション -->
-                            <?php wp_link_pages(); ?>
-                        </article>
-                        <!-- コメント (コメントがあれば表示するコード )-->
-                    <?php
+                        // <!-- コメント (コメントがあれば表示するコード )-->
                         if (comments_open() || get_comments_number()) {
                             comments_template();
                         }

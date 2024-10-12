@@ -39,6 +39,7 @@ function wpdevs_config()
         'flex-width'  => true, // if true, the width of the logo will be flexible
         'flex-height' => true,
     ));
+    add_theme_support('title-tag'); // title tag
 }
 add_action('after_setup_theme', 'wpdevs_config', 0); // 0 is the priority(This is the fastest)
 
