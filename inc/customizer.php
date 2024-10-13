@@ -87,7 +87,7 @@ function wpdevs_customizer($wp_customize)
 
   // Button Text
   $wp_customize->add_setting(
-    'set_hero_button_text😊',
+    'set_hero_button_text',
     array(
       'type' => 'theme_mod',
       'default' => 'Learn More',
@@ -145,29 +145,24 @@ function wpdevs_customizer($wp_customize)
     )
   );
 
-  // Hero Background
+  // Hero Background (IMG)
   $wp_customize->add_setting(
-    'set_hero_bg',
+    'set_hero_background',
     array(
       'type' => 'theme_mod',
-      'default' => get_template_directory_uri() . '/assets/img/hero.jpg',
-      'sanitize_callback' => 'absint',
+      'sanitize_callback' => 'absint'
     )
   );
 
-  $wp_customize->add_control(
-    new WP_Customize_Image_Control( // 画像をアップロードするためのコントロール
-      $wp_customize,
-      'set_hero_bg',
-      array(
-        'label' => 'Hero Background Img',
-        'section' => 'sec_hero',
-        'mime_type' => 'image',
-      )
+  $wp_customize->add_control(new WP_Customize_Media_Control(
+    $wp_customize,
+    'set_hero_background',
+    array(
+      'label' => 'Hero Image',
+      'section'   => 'sec_hero',
+      'mime_type' => 'image'
     )
-  );
-
-
+  ));
 };
 
 add_action('customize_register', 'wpdevs_customizer');

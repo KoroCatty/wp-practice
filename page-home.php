@@ -3,7 +3,7 @@
     <div id="primary" class="content-area">
 
         <main id="main" class="site-main">
-
+            
             <!-- 中身 -->
             <?php
             get_template_part('parts/content', 'home');
