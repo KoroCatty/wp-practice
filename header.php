@@ -8,8 +8,11 @@
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>
 
+<body <?php body_class(); ?>
+    <!--  bodyタグが開かれた直後にカスタムコードやスクリプトを追加するために使われます。Google Analyticsなど -->
+    <?php wp_body_open(); ?>
+    
     <div id="page" class="site">
     <header>
 
@@ -33,6 +36,12 @@
                 </div>
             </div>
         </section>
+
+        <!-- SLug を指定 -->
+        <?php if (is_page('landing-page')) : ?>
+                <h3>Landing pageのスラッグで is_page()を使用</h3>
+        <?php endif; ?>
+
 
         <section class="menu-area">
             <div class="container">

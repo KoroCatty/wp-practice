@@ -1,5 +1,8 @@
 <?php
 
+//! CUSTOMIZER
+require get_template_directory() . '/inc/customizer.php';
+
 // loading css and js files with time versioning
 function wpdevs_load_scripts()
 {
@@ -9,6 +12,36 @@ function wpdevs_load_scripts()
     wp_enqueue_script('dropdown', get_template_directory_uri() . '/js/dropdown.js', array(), '1.0', true); // by true, it will be loaded in the footer
 }
 add_action('wp_enqueue_scripts', 'wpdevs_load_scripts');
+
+// =================================================================
+// Version 5.2 以上 (wp_body_openを使用可能にする)
+// =================================================================
+if (!function_exists('wp_body_open')) {
+    function wp_body_open()
+    {
+        do_action('wp_body_open');
+    }
+}
+
+// =================================================================
+// Google Tag Manager
+// =================================================================
+/*
+ * Insert Google Tag Manager right after body open tag
+ * @link       https://marcobrughi.com
+ *
+ * @author     Marco Brughi <marco.brughi@mail.com>
+ *
+ * NB: Change Code with your's
+ */
+function mb_add_after_body_code() {
+    echo '<!-- Google Tag Manager (noscript) -->
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXX"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          <!-- End Google Tag Manager (noscript) -->
+        ';
+}
+add_action( 'wp_body_open', 'mb_add_after_body_code' );   
 
 // =================================================================
 // Menus
@@ -40,8 +73,11 @@ function wpdevs_config()
         'flex-height' => true,
     ));
     add_theme_support('title-tag'); // title tag
+    add_theme_support('automatic-feed-links'); // rss feed を取得できるようにする
+    add_theme_support('html5', array('comment-list', 'comment-form', 'comment-form', 'search-form', 'gallery', 'caption', 'style', 'script')); // Web標準に適合するための設定
 }
 add_action('after_setup_theme', 'wpdevs_config', 0); // 0 is the priority(This is the fastest)
+
 
 // =================================================================
 // sidebar widget を追加
