@@ -1,6 +1,14 @@
 
 <section class="hero">
-                Hero
+                <div class="overlay" style="min-height: 800px">
+                    <div class="container">
+                        <div class="hero-items">
+                            <h1>Lorem IPUSM</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione error officiis minima quam. Sunt in velit inventore. Eius aut architecto dolore laboriosam ratione sit inventore, porro distinctio! Sed, repellendus!</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section class="services">
