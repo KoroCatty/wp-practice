@@ -24,16 +24,16 @@
                         ?>
                                 <article class="post">
                                     <h2><?php the_title(); ?></h2>
-                                   
+
                                     <p><?php the_content(); ?></p>
                                 </article>
                             <?php
                             endwhile;
                         else :
                             ?>
-                            <p>No posts found</p>
+                            <p><?php _e('Nothing yet to be displayed!', 'wp-devs') ?></p>
                         <?php endif; ?>
-                        ?>
+            
                     </div>
                 </div>
 

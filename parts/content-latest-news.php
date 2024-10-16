@@ -1,13 +1,19 @@
 <article class="latest-news">
-  <a href="<?php the_permalink(); ?>">
-    <h3><?php the_title(); ?></h3>
-    <?php the_post_thumbnail(array(300, 300)); ?>
+    <?php if( has_post_thumbnail()): ?>
+        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'large' ); ?></a>
+    <?php endif; ?>
+    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
     <div class="meta-info">
-      <p>Posted in <?php echo get_the_date(); ?> </p>
-      <p>by <?php the_author(); ?></p>
-      <p>Categories: <?php the_category(" | ") ?></p>
-      <p>Tags: <?php the_tags('', ', ') ?></p>
+    <p>
+        <?php _e( 'by', 'wp-devs' ) ?> <span><?php the_author_posts_link(); ?></span> 
+        <?php if( has_category()): ?>
+            <?php _e( 'Categories', 'wp-devs' ) ?>: <span><?php the_category( ' ' ); ?></span>
+        <?php endif; ?>
+        <?php if( has_tag()): ?>
+            <?php _e( 'Tags', 'wp-devs' ) ?>: <?php the_tags( '', ', ' ); ?>
+        <?php endif; ?>
+    </p>
+    <p><span><?php echo get_the_date(); ?></p>
     </div>
-    <p><?php the_excerpt(); ?></p>
-  </a>
+    <?php the_excerpt(); ?>
 </article>

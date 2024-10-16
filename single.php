@@ -8,8 +8,10 @@
       while (have_posts()):
         the_post();
       ?>
-     
-     get_template_part('parts/content', 'single');
+
+        <?php
+        get_template_part('parts/content', 'single');
+        ?>
 
         <!-- Pagination （ループ内なので、左右の記事名が出る）-->
         <div class="wpdevs-pagination">

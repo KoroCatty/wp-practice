@@ -4,7 +4,7 @@
   <div id="main">
     <div class="container">
 
-      <h1>Search results for " <?php echo get_search_query(); ?></h1>
+    <h1><?php _e( 'Search results for', 'wp-devs' ) ?>: <?php echo get_search_query(); ?></h1>
 
       <?php
       while (have_posts()):

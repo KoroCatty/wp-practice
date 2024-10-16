@@ -44,15 +44,21 @@ function mb_add_after_body_code() {
 add_action( 'wp_body_open', 'mb_add_after_body_code' );   
 
 // =================================================================
-// Menus
+// 各種機能を追加
 // =================================================================
 function wpdevs_config()
 {
+    // Internationalization (多言語対応)
+    $textdomain = 'wp-devs';
+    // 下記のファイルを見に行く
+    load_theme_textdomain($textdomain, get_template_directory() . '/languages');
+
+
     // Menus
     register_nav_menus(
         array(
-            'wp_devs_main_menu' => "Main Menu Kazu",
-            'wp_devs_footer_menu' => "Footer Menu Kazu",
+            'wp_devs_main_menu' => __( "Main Menu Kazu" ),
+            'wp_devs_footer_menu' => __( "Footer Menu Kazu" ),
         )
     );
 
@@ -88,9 +94,9 @@ function wpdevs_sidebars()
     // 1st sidebar
     register_sidebar(
         array(
-            'name' => "Blog Sidebar Kazu made",
+            'name'  => __( 'Blog Sidebar', 'wp-devs' ),
             'id' => 'sidebar_blog_kazu',
-            'description' => 'This is the blog sidebar. You can add your widgets here for kazu.',
+            'description'   => __( 'This is the Blog Sidebar. You can add your widgets here for Kazu', 'wp-devs' ),
             'before_widget' => '<div class="widgetContainerKazu">',
             'after_widget' => '</div>',
             'before_title' => '<h4 class="widgetTitleKazu">',
@@ -112,9 +118,9 @@ function wpdevs_sidebars()
 
     register_sidebar(
         array(
-            'name'  => 'Service 1',
+            'name'  => __( 'Service 1', 'wp-devs' ),
             'id'    => 'services-1',
-            'description'   => 'First Service Area',
+            'description'   => __( 'First Service Area', 'wp-devs' ),
             'before_widget' => '<div class="widget-wrapper">',
             'after_widget'  => '</div>',
             'before_title'  => '<h4 class="widget-title">',
@@ -123,9 +129,9 @@ function wpdevs_sidebars()
     );
     register_sidebar(
         array(
-            'name'  => 'Service 2',
+            'name'  => __( 'Service 2', 'wp-devs' ),
             'id'    => 'services-2',
-            'description'   => 'Second Service Area',
+            'description'   => __( 'Second Service Area', 'wp-devs' ),
             'before_widget' => '<div class="widget-wrapper">',
             'after_widget'  => '</div>',
             'before_title'  => '<h4 class="widget-title">',
@@ -134,9 +140,9 @@ function wpdevs_sidebars()
     );
     register_sidebar(
         array(
-            'name'  => 'Service 3',
+            'name'  => __( 'Service 3', 'wp-devs' ),
             'id'    => 'services-3',
-            'description'   => 'Third Service Area',
+            'description'   => __( 'Third Service Area', 'wp-devs' ),
             'before_widget' => '<div class="widget-wrapper">',
             'after_widget'  => '</div>',
             'before_title'  => '<h4 class="widget-title">',

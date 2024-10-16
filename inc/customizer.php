@@ -11,9 +11,8 @@ function wpdevs_customizer($wp_customize)
   $wp_customize->add_section(
     'sec_copyright',
     array(
-      'title' => 'Copyright Settings😤',
-      'description' => 'Copyright Settings',
-    )
+      'title' => __('Copyright Settings😤','wp-devs'),
+      'description' => __('Copyright Settings', 'wp-devs'),    )
   );
 
   $wp_customize->add_setting(
@@ -41,7 +40,7 @@ function wpdevs_customizer($wp_customize)
   $wp_customize->add_section(
     'sec_hero',
     array(
-      'title' => 'Hero Section😘',
+      'title' => __('Hero Section😊', 'wp-devs')
     )
   );
 
@@ -50,7 +49,7 @@ function wpdevs_customizer($wp_customize)
     'set_hero_title',
     array(
       'type' => 'theme_mod',
-      'default' => 'Plz add some title',
+      'default' => __('Please, add some title', 'wp-devs'),
       'sanitize_callback' => 'sanitize_text_field',
     )
   );
@@ -58,8 +57,8 @@ function wpdevs_customizer($wp_customize)
   $wp_customize->add_control(
     'set_hero_title',
     array(
-      'label' => 'Hero Title',
-      'description' => 'Plz type your here title ~',
+      'label' => __('Hero Title', 'wp-devs'),
+      'description' => __('Please, type your here title here', 'wp-devs'),
       'section' => 'sec_hero',
       'type' => 'text',
     )
@@ -70,7 +69,7 @@ function wpdevs_customizer($wp_customize)
     'set_hero_subtitle',
     array(
       'type' => 'theme_mod',
-      'default' => 'Plz add some sub title',
+      'default' => __('Please, add some subtitle', 'wp-devs'),
       'sanitize_callback' => 'sanitize_textarea_field', // 注意
     )
   );
@@ -78,8 +77,8 @@ function wpdevs_customizer($wp_customize)
   $wp_customize->add_control(
     'set_hero_subtitle',
     array(
-      'label' => 'Hero subTitle',
-      'description' => 'Plz type your here subtitle ~',
+      'label' => __('Hero Subtitle', 'wp-devs'),
+      'description' => __('Please, type your subtitle here', 'wp-devs'),
       'section' => 'sec_hero',
       'type' => 'textarea',
     )
@@ -90,7 +89,7 @@ function wpdevs_customizer($wp_customize)
     'set_hero_button_text',
     array(
       'type' => 'theme_mod',
-      'default' => 'Learn More',
+      'default' => __('Learn More', 'wp-devs'),
       'sanitize_callback' => 'sanitize_text_field',
     )
   );
@@ -98,8 +97,8 @@ function wpdevs_customizer($wp_customize)
   $wp_customize->add_control(
     'set_hero_button_text',
     array(
-      'label' => 'Hero button text',
-      'description' => 'Plz type your BUTTON TEXT ~',
+      'label' => __('Hero button text', 'wp-devs'),
+      'description' => __('Please, type your hero button text here', 'wp-devs'),
       'section' => 'sec_hero',
       'type' => 'text',
     )
@@ -118,8 +117,8 @@ function wpdevs_customizer($wp_customize)
   $wp_customize->add_control(
     'set_hero_button_url',
     array(
-      'label' => 'Hero button URL',
-      'description' => 'Plz type your BUTTON URL ~',
+      'label' => __('Hero button link', 'wp-devs'),
+      'description' => __('Please, type your hero button link here', 'wp-devs'),
       'section' => 'sec_hero',
       'type' => 'url',
     )
@@ -138,8 +137,8 @@ function wpdevs_customizer($wp_customize)
   $wp_customize->add_control(
     'set_hero_height',
     array(
-      'label' => 'Hero Height',
-      'description' => 'Plz type your hero height ~',
+      'label' => __('Hero height', 'wp-devs'),
+      'description' => __('Please, type your hero height', 'wp-devs'),
       'section' => 'sec_hero',
       'type' => 'number',
     )
@@ -158,11 +157,78 @@ function wpdevs_customizer($wp_customize)
     $wp_customize,
     'set_hero_background',
     array(
-      'label' => 'Hero Image',
+      'label' => __('Hero Image', 'wp-devs'),
       'section'   => 'sec_hero',
       'mime_type' => 'image'
     )
   ));
+
+  // =================================================================
+  // Blog section
+  // =================================================================
+  $wp_customize->add_section(
+    'sec_blog',
+    array(
+      'title' => 'Blog Section😎'
+    )
+  );
+
+  // Posts per page
+  $wp_customize->add_setting(
+    'set_per_page',
+    array(
+      'type' => 'theme_mod',
+      'sanitize_callback' => 'absint' // absint は、整数に変換する関数 (absint(3.14) => 3
+    )
+  );
+
+  $wp_customize->add_control(
+    'set_per_page',
+    array(
+      'label' => __('Posts per page', 'wp-devs'),
+      'description' => __('How many items to display in the post list?', 'wp-devs'),
+      'section' => 'sec_blog',
+      'type' => 'number'
+    )
+  );
+
+  // Post categories to include
+  $wp_customize->add_setting(
+    'set_category_include',
+    array(
+      'type' => 'theme_mod',
+      'sanitize_callback' => 'sanitize_text_field'
+    )
+  );
+
+  $wp_customize->add_control(
+    'set_category_include',
+    array(
+      'label' => __('Post categories to include', 'wp-devs'),
+      'description' => __('Comma separated values or single category ID', 'wp-devs'),
+      'section' => 'sec_blog',
+      'type' => 'text' // textの理由は、複数のカテゴリーを入れるため
+    )
+  );
+
+  // Post categories to exclude
+  $wp_customize->add_setting(
+    'set_category_exclude',
+    array(
+      'type' => 'theme_mod',
+      'sanitize_callback' => 'sanitize_text_field'
+    )
+  );
+
+  $wp_customize->add_control(
+    'set_category_exclude',
+    array(
+      'label' => __('Post categories to exclude', 'wp-devs'),
+      'description' => __('Comma separated values or single category ID', 'wp-devs'),
+      'section' => 'sec_blog',
+      'type' => 'text'
+    )
+  );
 };
 
 add_action('customize_register', 'wpdevs_customizer');
