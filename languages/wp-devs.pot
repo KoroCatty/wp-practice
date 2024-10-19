@@ -1,0 +1,947 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP "
+"Devs v1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"POT-Creation-Date: "
+"2024-10-19 11:05+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Bookmarks: \n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: ⁨Codes and materials udemy/Lesson 34/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 35/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 36/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 37/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 38/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 39/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 40/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 41/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 42/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 43/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 44/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 45/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 47/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 48/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 49/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 50/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 52/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/comments.php⁩:31
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/comments.php⁩:31
+#, php-format
+msgctxt "comments title"
+msgid ""
+"One thought on &ldquo;"
+"%s&rdquo;"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 34/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 35/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 36/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 37/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 38/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 39/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 40/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 41/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 42/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 43/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 44/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 45/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 47/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 48/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 49/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 50/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 52/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/comments.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/comments.php⁩:36
+#, php-format
+msgctxt "comments title"
+msgid ""
+"%1$s thought on &ldquo;"
+"%2$s&rdquo;"
+msgid_plural ""
+"%1$s thoughts on &ldquo;"
+"%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ⁨Codes and materials udemy/Lesson 34/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 35/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 36/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 37/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 38/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 39/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 40/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 41/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 42/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 43/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 44/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 45/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 47/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 48/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 49/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 50/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 52/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/comments.php⁩:71
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/comments.php⁩:71
+msgid ""
+"Comments are closed."
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/404.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/404.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/404.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/404.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/404.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/404.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/404.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/404.php⁩:8
+msgid "Page not found"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/404.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/404.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/404.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/404.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/404.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/404.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/404.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/404.php⁩:9
+msgid ""
+"Unfortunately, the page "
+"you tried to reach does "
+"not exist on this site."
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/404.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/404.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/404.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/404.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/404.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/404.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/404.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/404.php⁩:13
+msgid ""
+"How about doing a search?"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/404.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/404.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/404.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/404.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/404.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/404.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/404.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/404.php⁩:19
+msgid "Latest Posts"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/archive.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/index.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/archive.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/index.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/archive.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/index.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/archive.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/index.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/archive.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/index.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/archive.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/index.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/archive.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/index.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/archive.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/index.php⁩:19
+msgid "<< Newer posts"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/archive.php⁩:23
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/index.php⁩:22
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/archive.php⁩:23
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/index.php⁩:22
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/archive.php⁩:23
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/index.php⁩:22
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/archive.php⁩:23
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/index.php⁩:22
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/archive.php⁩:23
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/index.php⁩:22
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/archive.php⁩:23
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/index.php⁩:22
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/archive.php⁩:23
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/index.php⁩:22
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/archive.php⁩:23
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/index.php⁩:22
+msgid "Older posts >>"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/archive.php⁩:28
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/general-template.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/index.php⁩:27
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/page-home.php⁩:74
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/archive.php⁩:28
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/general-template.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/index.php⁩:27
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/page-home.php⁩:74
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/archive.php⁩:28
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/general-template.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/index.php⁩:27
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/page-home.php⁩:74
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/archive.php⁩:28
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/general-template.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/index.php⁩:27
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/page-home.php⁩:74
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/archive.php⁩:28
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/general-template.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/index.php⁩:27
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/page-home.php⁩:74
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/archive.php⁩:28
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/general-template.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/index.php⁩:27
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/page-home.php⁩:74
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/archive.php⁩:28
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/general-template.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/index.php⁩:27
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/page-home.php⁩:74
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/archive.php⁩:28
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/general-template.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/index.php⁩:27
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/page-home.php⁩:74
+msgid ""
+"Nothing yet to be "
+"displayed!"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/footer.php⁩:4
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:17
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/footer.php⁩:4
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:17
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/footer.php⁩:4
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:17
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/footer.php⁩:4
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:17
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/footer.php⁩:4
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:17
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/footer.php⁩:4
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:17
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/footer.php⁩:4
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:17
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/footer.php⁩:4
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:17
+msgid ""
+"Copyright X - All Rights "
+"Reserved"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/functions.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/functions.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/functions.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/functions.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/functions.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/functions.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/functions.php⁩:19
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/functions.php⁩:19
+msgid "Main Menu"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/functions.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/functions.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/functions.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/functions.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/functions.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/functions.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/functions.php⁩:20
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/functions.php⁩:20
+msgid "Footer Menu"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/functions.php⁩:46
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/functions.php⁩:46
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/functions.php⁩:46
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/functions.php⁩:46
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/functions.php⁩:51
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/functions.php⁩:67
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/functions.php⁩:80
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/functions.php⁩:80
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/functions.php⁩:48
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/functions.php⁩:48
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/functions.php⁩:48
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/functions.php⁩:48
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/functions.php⁩:53
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/functions.php⁩:69
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/functions.php⁩:82
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/functions.php⁩:82
+msgid ""
+"This is the Blog "
+"Sidebar. You can add "
+"your widgets here."
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/functions.php⁩:57
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/functions.php⁩:57
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/functions.php⁩:57
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/functions.php⁩:57
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/functions.php⁩:62
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/functions.php⁩:78
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/functions.php⁩:91
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/functions.php⁩:91
+msgid "Service 1"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/functions.php⁩:59
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/functions.php⁩:59
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/functions.php⁩:59
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/functions.php⁩:59
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/functions.php⁩:64
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/functions.php⁩:80
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/functions.php⁩:93
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/functions.php⁩:93
+msgid "First Service Area"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/functions.php⁩:68
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/functions.php⁩:68
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/functions.php⁩:68
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/functions.php⁩:68
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/functions.php⁩:73
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/functions.php⁩:89
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/functions.php⁩:102
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/functions.php⁩:102
+msgid "Service 2"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/functions.php⁩:70
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/functions.php⁩:70
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/functions.php⁩:70
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/functions.php⁩:70
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/functions.php⁩:75
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/functions.php⁩:91
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/functions.php⁩:104
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/functions.php⁩:104
+msgid "Second Service Area"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/functions.php⁩:79
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/functions.php⁩:79
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/functions.php⁩:79
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/functions.php⁩:79
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/functions.php⁩:84
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/functions.php⁩:100
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/functions.php⁩:113
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/functions.php⁩:113
+msgid "Service 3"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/functions.php⁩:81
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/functions.php⁩:81
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/functions.php⁩:81
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/functions.php⁩:81
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/functions.php⁩:86
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/functions.php⁩:102
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/functions.php⁩:115
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/functions.php⁩:115
+msgid "Third Service Area"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:9
+msgid "Copyright Settings"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:25
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:25
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:25
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:25
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:25
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:25
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:25
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:25
+msgid ""
+"Copyright Information"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:26
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:26
+msgid ""
+"Please, type your "
+"copyright here"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:36
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:36
+msgid "Hero Section"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:45
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:45
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:45
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:45
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:45
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:45
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:45
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:45
+msgid ""
+"Please, add some title"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:53
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:53
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:53
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:53
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:53
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:53
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:53
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:53
+msgid "Hero Title"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:54
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:54
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:54
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:54
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:54
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:54
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:54
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:54
+msgid ""
+"Please, type your here "
+"title here"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:65
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:65
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:65
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:65
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:65
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:65
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:65
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:65
+msgid ""
+"Please, add some subtitle"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:73
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:73
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:73
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:73
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:73
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:73
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:73
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:73
+msgid "Hero Subtitle"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:74
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:74
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:74
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:74
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:74
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:74
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:74
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:74
+msgid ""
+"Please, type your "
+"subtitle here"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:85
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/page-home.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:85
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/page-home.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:85
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/page-home.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:85
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/page-home.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:85
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/page-home.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:85
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/page-home.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:85
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/page-home.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:85
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/page-home.php⁩:9
+msgid "Learn More"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:93
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:93
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:93
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:93
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:93
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:93
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:93
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:93
+msgid "Hero button text"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:94
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:94
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:94
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:94
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:94
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:94
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:94
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:94
+msgid ""
+"Please, type your hero "
+"button text here"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:113
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:113
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:113
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:113
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:113
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:113
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:113
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:113
+msgid "Hero button link"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:114
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:114
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:114
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:114
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:114
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:114
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:114
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:114
+msgid ""
+"Please, type your hero "
+"button link here"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:133
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:133
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:133
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:133
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:133
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:133
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:133
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:133
+msgid "Hero height"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:134
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:134
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:134
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:134
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:134
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:134
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:134
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:134
+msgid ""
+"Please, type your hero "
+"height"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:152
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:152
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:152
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:152
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:152
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:152
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:152
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:152
+msgid "Hero Image"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:161
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:161
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:161
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:161
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:161
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:161
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:161
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:161
+msgid "Blog Section"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:175
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:175
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:175
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:175
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:175
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:175
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:175
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:175
+msgid "Posts per page"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:176
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:176
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:176
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:176
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:176
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:176
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:176
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:176
+msgid ""
+"How many items to "
+"display in the post list?"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:192
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:192
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:192
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:192
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:192
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:192
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:192
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:192
+msgid ""
+"Post categories to "
+"include"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:193
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:210
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:193
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:210
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:193
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:210
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:193
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:210
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:193
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:210
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:193
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:210
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:193
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:210
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:193
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:210
+msgid ""
+"Comma separated values "
+"or single category ID"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/inc/customizer.php⁩:209
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/inc/customizer.php⁩:209
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/inc/customizer.php⁩:209
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/inc/customizer.php⁩:209
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/inc/customizer.php⁩:209
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/inc/customizer.php⁩:209
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/inc/customizer.php⁩:209
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/inc/customizer.php⁩:209
+msgid ""
+"Post categories to "
+"exclude"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/index.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/index.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/index.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/index.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/index.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/index.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/index.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/index.php⁩:8
+msgid "Blog"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/page-home.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/page-home.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/page-home.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/page-home.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/page-home.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/page-home.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/page-home.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/page-home.php⁩:6
+msgid ""
+"Please, type some title"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/page-home.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/page-home.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/page-home.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/page-home.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/page-home.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/page-home.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/page-home.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/page-home.php⁩:7
+msgid ""
+"Please, type some "
+"subtitle"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/page-home.php⁩:25
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/page-home.php⁩:25
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/page-home.php⁩:25
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/page-home.php⁩:25
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/page-home.php⁩:25
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/page-home.php⁩:25
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/page-home.php⁩:25
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/page-home.php⁩:25
+msgid "Services"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/page-home.php⁩:51
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/page-home.php⁩:51
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/page-home.php⁩:51
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/page-home.php⁩:51
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/page-home.php⁩:51
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/page-home.php⁩:51
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/page-home.php⁩:51
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/page-home.php⁩:51
+msgid "Latest News"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content.php⁩:7
+msgid "by"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content-search.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content-single.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content-search.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content-single.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content-search.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content-single.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content-search.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content-single.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content-search.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content-single.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content-search.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content-single.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content-search.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content-single.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content-search.php⁩:9
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content-single.php⁩:8
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content.php⁩:9
+msgid "Categories"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content-search.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content-single.php⁩:11
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content-search.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content-single.php⁩:11
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content-search.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content-single.php⁩:11
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content-search.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content-single.php⁩:11
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content-search.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content-single.php⁩:11
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content-search.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content-single.php⁩:11
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content-search.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content-single.php⁩:11
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content-search.php⁩:12
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content-single.php⁩:11
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content.php⁩:12
+msgid "Tags"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/parts/content.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/parts/content.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/parts/content.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/parts/content.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/parts/content.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/parts/content.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/parts/content.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content-search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content-single.php⁩:6
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/parts/content.php⁩:7
+msgid "Posted in"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/search.php⁩:7
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/search.php⁩:7
+msgid "Search results for"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/searchform.php⁩:3
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/searchform.php⁩:3
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/searchform.php⁩:3
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/searchform.php⁩:3
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/searchform.php⁩:3
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/searchform.php⁩:3
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/searchform.php⁩:3
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/searchform.php⁩:3
+msgid "Search for"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 53/wp-devs/searchform.php⁩:5
+#: ⁨Codes and materials udemy/Lesson 54/wp-devs/searchform.php⁩:5
+#: ⁨Codes and materials udemy/Lesson 55/wp-devs/searchform.php⁩:5
+#: ⁨Codes and materials udemy/Lesson 59/wp-devs/searchform.php⁩:5
+#: ⁨Codes and materials udemy/Lesson 66/wp-devs/searchform.php⁩:5
+#: ⁨Codes and materials udemy/Lesson 67/wp-devs/searchform.php⁩:5
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/searchform.php⁩:5
+#: ⁨Codes and materials udemy/Lesson 69/wp-devs/searchform.php⁩:5
+msgid "Search"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/functions.php⁩:47
+msgid "Primary"
+msgstr ""
+
+#: ⁨Codes and materials udemy/Lesson 68/wp-devs/functions.php⁩:52
+msgid "Secondary"
+msgstr ""

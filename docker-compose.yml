@@ -1,0 +1,48 @@
+# Docker を使用する場合 このファイルをルートディレクトリに配置した状態で下記コマンド実行⬇︎
+
+# To start 
+# docker-compose up -d
+
+# To stop  (stop and remove containers)
+# docker-compose down 
+
+version: "3.8"  # Docker Composeのバージョンを指定
+
+services:
+  db:
+    image: mysql:5.7  # MySQLの5.7バージョンのイメージを使用
+    environment:
+      MYSQL_ROOT_PASSWORD: wordpress  # MySQLのrootユーザーのパスワードを設定
+      MYSQL_DATABASE: wordpress  # 作成するデータベース名を設定
+      MYSQL_USER: wordpress  # MySQLで作成されるユーザー名
+      MYSQL_PASSWORD: wordpress  # 上記ユーザーのパスワード
+    restart: always  # サービスが停止した場合に常に再起動
+    volumes: 
+    - ./db_data:/var/lib/mysql  # ローカルのdb_dataフォルダをMySQLのデータストレージとマウント
+
+  phpmyadmin:
+    depends_on: 
+      - db  # dbサービスが起動してからこのサービスを起動
+    image: phpmyadmin  # phpMyAdminの最新イメージを使用
+    environment: 
+      PMA_HOST: db  # phpMyAdminから接続するデータベースホストを指定
+      MYSQL_ROOT_PASSWORD: wordpress  # MySQLのrootユーザーのパスワードを設定
+    restart: always  # サービスが停止した場合に常に再起動
+    ports: 
+      - '8081:80'  # ローカルのポート8081をコンテナのポート80にマッピング
+
+  wordpress:
+    depends_on: 
+    - db  # dbサービスが起動してからこのサービスを起動
+    image: wordpress:5.9.3-php8.0-apache  # WordPressの5.9.3版（PHP 8.0とApache含む）イメージを使用
+    volumes: 
+     - ./:/var/www/html  # カレントディレクトリ（./）をコンテナの/var/www/htmlにマウント
+     - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini  # 大きなファイルをアップロードするためのPHP設定ファイルをマウント
+     # - ./wp-content:/var/www/html/wp-content  # （コメントアウト）WordPressのwp-contentディレクトリをマウント
+    ports: 
+      - 80:80  # ローカルのポート80をコンテナのポート80にマッピング
+    environment:
+      WORDPRESS_DB_HOST: db:3306  # WordPressが接続するデータベースホスト（コンテナ名:ポート）
+      WORDPRESS_DB_USER: wordpress  # WordPressが使用するデータベースユーザー
+      WORDPRESS_DB_PASSWORD: wordpress  # 上記ユーザーのパスワード
+      WORDPRESS_DB_NAME: wordpress  # 使用するデータベース名
